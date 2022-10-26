@@ -50,4 +50,13 @@ public int divide(int a , int b){
 return a+b;
 }
 
+/********************************
+Developer: Hasnain Ali
+University ID: 200072061
+Function: This function multipies 2 integers.
+********************************/
+public int Multi(int x , int y){
+return x*y;
+}
+
 }
