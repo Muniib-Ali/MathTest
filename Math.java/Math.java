@@ -31,6 +31,11 @@ return a;
 }
 }
 
+/********************************
+Developer: Lena Akhter
+University ID: 210108596
+Function: This function takes two inputs as integers and return the result of a modulus division
+********************************/
 public int mod (int a, int b) {
     int modres= a % b;
     return modres;
@@ -79,6 +84,15 @@ public void maxTest(){
 System.out.print("Error in Implementation");
     }
     
+}
+
+/********************************
+Developer: Hasnain Ali
+University ID: 200072061
+Function: This function multipies 2 integers.
+********************************/
+public int Multi(int x , int y){
+return x*y;
 }
 
 }
