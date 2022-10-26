@@ -44,7 +44,41 @@ Function: This function takes two inputs as integers and returns the subtraction
 ********************************/
 
 public int divide(int a , int b){
-return a+b;
+return a/b;
+}
+
+/********************************
+Developer: Faraz Ahmed
+University ID: 210141722
+Function: This function tests the implementation of add method.
+********************************/
+public void addTest(){
+    Math obj = new Math();
+    int result = obj.add(1,3);
+    if(result==4){
+System.out.print("Correct Implementation");
+    }
+    else{
+System.out.print("Error in Implementation");
+    }
+}
+
+/********************************
+Developer: Faraz Ahmed
+University ID: 210141722
+Function: This function tests the implementation of max method.
+********************************/
+public void maxTest(){
+    Math obj = new Math();
+    boolean result = obj.max(1,3);
+
+    if (!result){
+        System.out.print("Correct Implementation");
+    }
+    else{
+System.out.print("Error in Implementation");
+    }
+    
 }
 
 }
