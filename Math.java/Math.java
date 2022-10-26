@@ -23,6 +23,10 @@ return a;
 }
 }
 
+public int mod (int a, int b) {
+    int modres= a % b;
+    return modres;
+}
 
 
 
