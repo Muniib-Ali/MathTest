@@ -31,6 +31,11 @@ return a;
 }
 }
 
+/********************************
+Developer: Lena Akhter
+University ID: 210108596
+Function: This function takes two inputs as integers and return the result of a modulus division
+********************************/
 public int mod (int a, int b) {
     int modres= a % b;
     return modres;
