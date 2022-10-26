@@ -15,6 +15,12 @@ Function: This function takes two inputs as integers and returns the sum
 public int add(int a, int b){
 return a+b;
 }
+
+********************************
+Developer: Muniib Ali
+University ID: 200103424
+Function: This function takes two inputs and returns the larger one
+********************************
 public int max(int a, int b){
 if(a > b){
 return a;
@@ -22,6 +28,12 @@ return a;
 return b;
 }
 }
+
+********************************
+Developer: Muniib Ali
+University ID: 200103424
+Function: This function takes two inputs  and returns the smaller one
+********************************
 
 public int min(int a, int b){
 if(a > b){
